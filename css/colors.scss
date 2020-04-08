@@ -1,0 +1,98 @@
+$base-color:  #1ea457;
+$secondary-color:  #808080;
+
+$top-gradient: white; //GÓRNY GRADIENT
+$bottom-gradient: #f5f1e8; //DOLNY GRADIENT
+
+$navigation-text-color: #808080
+; //KOLOR TEKSTU W MENU NAWIGACJI NA GÓRZE
+
+$contact-bar-color: white; //KOLOR PASKA Z KONTAKTEM
+$contact-bar-text-color: #5b6566;
+$vertical-bar-color: $base-color; //KOLOR PIONOWYCH PASKÓW W MENU DO NAWIGACJI
+
+$top-horizontal-bar-color: $base-color; //KOLOR POZIOMEGO PASKA NA SAMEJ GÓRZE
+
+// STRONA GŁÓWNA
+
+$product-header-text-color: white; //KOLOR TEKSTU W TYTULE PRODUKTU
+$product-background-color: $base-color; //KOLOR TŁA PRODUKTU
+
+$contact-us-background-color: #ebe6de;
+$contact-us-header-color: white;
+$contact-us-paragraph-color: #808080;
+
+// STRONA PRODUKTU
+
+$description-text-color: black; //KOLOR TEKSTU W OPISIE PRODUKTU
+
+$button-text-color: white; //KOLOR TEKSTU NA PRZYCISKACH
+$button-background-color: $base-color; //KOLOR PRZYCISKOW
+
+$info-header-color: black; //KOLOR TEKSTU W NAZWIE PRODUKTU
+$info-header2-color: black; //KOLOR TEKSTU "SPECYFIKACJA"
+$info-listobject-color: black; //KOLOR TEKSTU W SPECYFIKACJACH
+
+button {
+    background-color: $button-background-color;
+    color: $button-text-color;
+}
+
+.navigation-paragraph {
+    color: $navigation-text-color;
+}
+
+.vertical-bar {
+    background-color: $vertical-bar-color;
+}
+
+.product {
+    background-color: $product-background-color;
+}
+
+.product-description {
+    color: $product-header-text-color;
+}
+
+#container {
+    background-image: linear-gradient($top-gradient, $bottom-gradient);
+}
+
+#top-horizontal-bar {
+    background-color: $top-horizontal-bar-color;
+}
+
+#contact-bar {
+    background-color: $contact-bar-color;
+    color: $contact-bar-text-color;
+}
+
+#description {
+    color: $description-text-color;
+}
+
+#info {
+    h1 {
+        color: $info-header-color;
+    }
+
+    h2 {
+        color: $info-header2-color;
+    }
+
+    ul {
+        color: $info-listobject-color;
+    }
+}
+
+#contact-us {
+    background-color: $contact-us-background-color;
+
+    h1 {
+        color: $contact-us-header-color;
+    }
+
+    p {
+        color: $contact-us-paragraph-color;
+    }
+}

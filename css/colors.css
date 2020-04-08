@@ -1,0 +1,63 @@
+button {
+  background-color: #1ea457;
+  color: white;
+}
+
+.navigation-paragraph {
+  color: #808080;
+}
+
+.vertical-bar {
+  background-color: #1ea457;
+}
+
+.product {
+  background-color: #1ea457;
+}
+
+.product-description {
+  color: white;
+}
+
+#container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f1e8));
+  background-image: linear-gradient(white, #f5f1e8);
+}
+
+#top-horizontal-bar {
+  background-color: #1ea457;
+}
+
+#contact-bar {
+  background-color: white;
+  color: #5b6566;
+}
+
+#description {
+  color: black;
+}
+
+#info h1 {
+  color: black;
+}
+
+#info h2 {
+  color: black;
+}
+
+#info ul {
+  color: black;
+}
+
+#contact-us {
+  background-color: #ebe6de;
+}
+
+#contact-us h1 {
+  color: white;
+}
+
+#contact-us p {
+  color: #808080;
+}
+/*# sourceMappingURL=colors.css.map */
