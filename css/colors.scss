@@ -1,28 +1,26 @@
-$base-color:  #1ea457;
-$secondary-color:  #808080; // test
+$base-color: #039955;
+$secondary-color: #1f2e27;
 
-//test 2
+$top-gradient: white; //GÓRNY GRADIENT
+$bottom-gradient: #ebe0d4; //DOLNY GRADIENT
 
-$top-gradient: white; //GÓRNY GRADIENT 
-$bottom-gradient: #f5f1e8; //DOLNY GRADIENT
-
-$navigation-text-color: #808080
-; //KOLOR TEKSTU W MENU NAWIGACJI NA GÓRZE
+$navigation-text-color: #808080; //KOLOR TEKSTU W MENU NAWIGACJI NA GÓRZE
 
 $contact-bar-color: white; //KOLOR PASKA Z KONTAKTEM
-$contact-bar-text-color: #5b6566;
-$vertical-bar-color: $base-color; //KOLOR PIONOWYCH PASKÓW W MENU DO NAWIGACJI
+$contact-bar-text-color: #808080;
+$vertical-bar-color: #8cdf89; //KOLOR PIONOWYCH PASKÓW W MENU DO NAWIGACJI
 
 $top-horizontal-bar-color: $base-color; //KOLOR POZIOMEGO PASKA NA SAMEJ GÓRZE
 
 // STRONA GŁÓWNA
 
 $product-header-text-color: white; //KOLOR TEKSTU W TYTULE PRODUKTU
-$product-background-color: $base-color; //KOLOR TŁA PRODUKTU
+$product-background-color: #039955; //KOLOR TŁA PRODUKTU
 
-$contact-us-background-color: #ebe6de;
+$contact-us-background-color: #ebe0d4;
 $contact-us-header-color: white;
-$contact-us-paragraph-color: #808080;
+$contact-us-paragraph-color: white;
+$contact-us-text-color: #aab3ac;
 
 // STRONA PRODUKTU
 
@@ -54,6 +52,30 @@ button {
 
 .product-description {
     color: $product-header-text-color;
+}
+
+.contact-us-highlighted-text {
+    background-color: white;
+    color: $contact-us-text-color;
+}
+
+.contact-us-box {
+    background-color: white;
+    color: $contact-us-background-color;
+}
+
+.contact-us-header {
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.small-text {
+    color: $contact-us-text-color;
+}
+
+.bold-text {
+    color: $contact-us-text-color;
 }
 
 #container {
@@ -89,12 +111,4 @@ button {
 
 #contact-us {
     background-color: $contact-us-background-color;
-
-    h1 {
-        color: $contact-us-header-color;
-    }
-
-    p {
-        color: $contact-us-paragraph-color;
-    }
 }

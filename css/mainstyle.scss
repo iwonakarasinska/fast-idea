@@ -3,7 +3,7 @@
         "top-bar      top-bar        top-bar       top-bar      top-bar"
         "logo         nav-menu       nav-menu      nav-menu     contact"
         ".            .              .             .            .      "
-        "contact-us   prod1          prod2         prod3        .      "
+        "contact-us      prod1          prod2         prod3        .      "
         "contact-us   prod4          prod5         prod6        .      "
         ".            contact-bar    contact-bar   contact-bar  .      "
     ;
@@ -64,22 +64,50 @@
         margin: 20px 10px;
     }
 
-    img {
-        width: 200px;
-        height: auto;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    p {
-        font-size: 28px;
-    }
-
     @media screen and(max-width: 1705px) {
         display: none;
     }
+}
+
+.contact-us-image {
+    width: 80px;
+    height: auto;
+}
+
+.contact-us-logo {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-us-header {
+    font-weight: light;
+
+}
+
+.contact-us-highlighted-text {
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%
+}
+
+.contact-us-box {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.small-text {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.bold-text {
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 ///////////////////////////////////////
@@ -131,4 +159,8 @@
 
 #contact-us {
     grid-area: contact-us;
+}
+
+#detalic {
+    grid-area: detalic;
 }

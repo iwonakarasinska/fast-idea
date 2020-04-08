@@ -1,5 +1,5 @@
 button {
-  background-color: #1ea457;
+  background-color: #039955;
   color: white;
 }
 
@@ -8,29 +8,53 @@ button {
 }
 
 .vertical-bar {
-  background-color: #1ea457;
+  background-color: #8cdf89;
 }
 
 .product {
-  background-color: #1ea457;
+  background-color: #039955;
 }
 
 .product-description {
   color: white;
 }
 
+.contact-us-highlighted-text {
+  background-color: white;
+  color: #aab3ac;
+}
+
+.contact-us-box {
+  background-color: white;
+  color: #ebe0d4;
+}
+
+.contact-us-header {
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.small-text {
+  color: #aab3ac;
+}
+
+.bold-text {
+  color: #aab3ac;
+}
+
 #container {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f1e8));
-  background-image: linear-gradient(white, #f5f1e8);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#ebe0d4));
+  background-image: linear-gradient(white, #ebe0d4);
 }
 
 #top-horizontal-bar {
-  background-color: #1ea457;
+  background-color: #039955;
 }
 
 #contact-bar {
   background-color: white;
-  color: #5b6566;
+  color: #808080;
 }
 
 #description {
@@ -50,14 +74,6 @@ button {
 }
 
 #contact-us {
-  background-color: #ebe6de;
-}
-
-#contact-us h1 {
-  color: white;
-}
-
-#contact-us p {
-  color: #808080;
+  background-color: #ebe0d4;
 }
 /*# sourceMappingURL=colors.css.map */
